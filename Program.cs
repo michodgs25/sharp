@@ -2,16 +2,24 @@
 
 namespace hello_Sharp
 {
-    class Lecture
+    class Program
     {
         // entry point of program
         static void Main(string[] args)
         {
-            // creating variable inside of the method
-            // the variable can only get used inside of thiss method
+            // declaring a variable
+            int num1;
 
-            int age = 15;
-            Console.WriteLine(age); //output will be 15
+            // assign value to variable
+            num1 = 13;
+            // declaring and initializing a variable in one go
+            int num2 = 11;
+            int sum = num1 + num2;
+
+            // using concatination
+            Console.WriteLine("num1 is " + num1);
+            Console.WriteLine("num1: " + num1 + " + num2: " + num2 + " is " + sum);
+            Console.Read();
         }
     }
 }
