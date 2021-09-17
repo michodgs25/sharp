@@ -40,6 +40,7 @@ namespace hello_Sharp
             bool sunIsShining = true;
             string myBoolString = sunIsShining.ToString();
 
+            // convert string to integers
             string my1stString = "15";
             string my2ndString = "13";
             int num1 = Int32.Parse(my1stString);
@@ -47,11 +48,26 @@ namespace hello_Sharp
             int resultInt = num1 + num2;
             string result = my1stString + my2ndString;
 
-            Console.WriteLine(resultInt);
-            Console.WriteLine(result);
-            Console.WriteLine(myBoolString);
-            Console.WriteLine(myFloatString);
-            Console.WriteLine(myInt);
+            // define two variables
+            int age = 25;
+            string name = "Michael";
+            string occupation = "Programmer";
+            int length = 1;
+
+            //1. string concatenation 
+            Console.WriteLine("String Concatenation");
+            Console.WriteLine("Hello my name is " + name + " , I am " + age + " years old");
+
+            //2. String formatting
+            //string formatting uses index
+            Console.WriteLine("String Formatting");
+            Console.WriteLine("Hello my name is {0} , I am {1} years old , I work as a {2} and I have been for over {3} year.", name, age, occupation, length);
+
+            //Console.WriteLine(resultInt);
+            //Console.WriteLine(result);
+            //Console.WriteLine(myBoolString);
+            //Console.WriteLine(myFloatString);
+            //Console.WriteLine(myInt);
             Console.Read();
         }
     }
