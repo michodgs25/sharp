@@ -40,7 +40,16 @@ namespace hello_Sharp
             bool sunIsShining = true;
             string myBoolString = sunIsShining.ToString();
 
-            Console.WriteLine(sunIsShining);
+            string my1stString = "15";
+            string my2ndString = "13";
+            int num1 = Int32.Parse(my1stString);
+            int num2 = Int32.Parse(my2ndString);
+            int resultInt = num1 + num2;
+            string result = my1stString + my2ndString;
+
+            Console.WriteLine(resultInt);
+            Console.WriteLine(result);
+            Console.WriteLine(myBoolString);
             Console.WriteLine(myFloatString);
             Console.WriteLine(myInt);
             Console.Read();
