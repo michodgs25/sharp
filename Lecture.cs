@@ -1,11 +1,11 @@
-﻿using System;
+﻿//using System;
 
-namespace Lecture
-{
-	class Lecture
-	{
-		static void Main(string[] args)
-        {
+//namespace Lecture
+//{
+	//class Lecture
+	//{
+		
+        //{
             // declaring a variable
             // int num1;
             // int num2;
@@ -39,15 +39,15 @@ namespace Lecture
             //Console.WriteLine("Hey there");
             //Console.Write("Enter a string and press enter:");
             //string readInput = Console.ReadLine();
-            Console.WriteLine("You have entered {0}", readInput);
-            Console.Write("Enter a string and press enter:");
+            //Console.WriteLine("You have entered {0}", readInput);
+            //Console.Write("Enter a string and press enter:");
             
-            int asciiValue = Console.Read();
-            Console.WriteLine("ASCII value is {0}:", asciiValue);
+           // int asciiValue = Console.Read();
+           // Console.WriteLine("ASCII value is {0}:", asciiValue);
             
-            Console.ReadKey();
-            Console.Read();
-        }
-    }
+           // Console.ReadKey();
+         //   Console.Read();
+      //  }
+    //}
 
-}
+//}
