@@ -9,13 +9,11 @@ namespace hello_Sharp
         {
             // declaring a variable
             int num1;
+            int num2;
 
             // assign value to variable
             num1 = 13;
-            // declaring and initializing a variable in one go
-            int num2 = 11;
-      
-            num2 = 100;
+            num2 = 133;
             
             // using concatination
             Console.WriteLine("num1 is " + num1);
@@ -37,7 +35,17 @@ namespace hello_Sharp
             double dIDiv = d1 / num1;
             Console.WriteLine("d1/num2 is " + dIDiv);
 
-            // declaring multiple variables at once
+            string myname = "Michael";
+
+            string message = "My name is " + myname;
+
+            string capsMessage = message.ToUpper();
+
+            string lowerCaseMessage = message.ToLower();
+
+            Console.WriteLine(message);
+            Console.WriteLine(lowerCaseMessage);
+            Console.WriteLine(capsMessage);
             Console.Read();
         }
     }
