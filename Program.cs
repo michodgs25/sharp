@@ -4,6 +4,8 @@ namespace hello_Sharp
 {
     class Program
     {
+        private static bool a;
+
         // entry point of program
         static void Main(string[] args)
         {
@@ -46,6 +48,19 @@ namespace hello_Sharp
             Console.WriteLine(message);
             Console.WriteLine(lowerCaseMessage);
             Console.WriteLine(capsMessage);
+
+            Console.Write("Hey");
+            Console.WriteLine("Hey there");
+
+            Console.Write("Enter a string and press enter:");
+            string readInput = Console.ReadLine();
+            Console.WriteLine("You have entered {0}", readInput);
+
+            Console.Write("Enter a string and press enter:");
+            int asciiValue = Console.Read();
+            Console.WriteLine("ASCII value is {0}:", asciiValue);
+            Console.ReadKey();
+
             Console.Read();
         }
     }
