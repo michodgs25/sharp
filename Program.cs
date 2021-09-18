@@ -90,6 +90,14 @@ namespace hello_Sharp
             //with verbatim strings even valid escape characters won't work
             Console.WriteLine(@"Muhahaha \n you have no powers here.");
 
+            string verifyName;
+            Console.WriteLine("Please enter your name and press enter:");
+    
+            string readInput = Console.ReadLine();
+            verifyName = readInput;
+            Console.WriteLine("You have entered", readInput);
+
+
             //Console.WriteLine(resultInt);
             //Console.WriteLine(result);
             //Console.WriteLine(myBoolString);
