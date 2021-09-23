@@ -4,7 +4,7 @@ namespace Methods
 {
     class Program
     {
-        static void Main(string[] args)
+        static void First(string[] args)
         {// METHOD BODY
 
             /*A method is a code block that contains a series of statements.
@@ -22,13 +22,19 @@ namespace Methods
               return result;
             }*/
             WriteSomething();
+
+            WriteSomethingSpecific("I am an argument called from a method");
+            Console.Read();
         
         }// METHOD BODY END
         //access modifier (static) return type method name (param1, param2)
         public static void WriteSomething()
         {
             Console.WriteLine("I am called from a method");
-            Console.Read();
+        }
+        public static void WriteSomethingSpecific(string mytext)
+        {
+            Console.WriteLine(mytext);
         }
     }
 }
