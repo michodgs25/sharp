@@ -4,7 +4,7 @@ namespace MethodsTwo
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Second(string[] args)
         {
             // Call Add, Multiply, Divide methods& args, to print statements to console
             Console.WriteLine(Add(Add(1, 5), Add(3, 4)));
