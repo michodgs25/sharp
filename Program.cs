@@ -95,7 +95,7 @@ namespace hello_Sharp
     
             string readInput = Console.ReadLine();
             verifyName = readInput;
-            Console.WriteLine("You have entered", readInput);
+            Console.WriteLine("You have entered", verifyName);
 
 
             //Console.WriteLine(resultInt);
