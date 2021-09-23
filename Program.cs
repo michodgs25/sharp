@@ -10,7 +10,7 @@ namespace hello_Sharp
     {
 
         // entry point of program
-        static void Main(string[] args)
+        static void Success(string[] args)
         {
            // Console.ForegroundColor = ConsoleColor.Red;
            // Console.BackgroundColor = ConsoleColor.White;

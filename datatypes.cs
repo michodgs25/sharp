@@ -4,8 +4,7 @@ namespace ChallengeDatatypes
 {
     class Program
     {
-
-        static void Main(string[] args)
+        static void Sub(string[] args)
         {
             // declare and initialize variables with values& log to the console
             int myint = 1245;
