@@ -4,7 +4,7 @@ namespace Input
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Third(string[] args)
         {
             Console.WriteLine(Calculate());
             Console.Read();
