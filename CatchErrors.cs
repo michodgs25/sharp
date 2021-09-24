@@ -9,6 +9,18 @@ namespace TryAndCatchC
             Console.WriteLine("Please enter a number!");
             string userInput = Console.ReadLine();
 
+            int num1 = 5;
+            int num2 = 0;
+            int result;
+            try
+            {
+                result = num1 / num2;
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Cannot divide by 0.");
+            }
+
             try
             {
                 int userInputAsInt = int.Parse(userInput);
