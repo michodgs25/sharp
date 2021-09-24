@@ -8,7 +8,17 @@ namespace Decisions
         {
             Console.WriteLine("What's the temperature like?");
             string temperature = Console.ReadLine();
-            int numTemp = int.Parse(temperature);
+            int numTemp;
+            int number;
+
+            if(int.TryParse(temperature, out number))
+            {
+                numTemp = number;
+            } else
+            {
+                numTemp = 0;
+                Console.WriteLine("You didn't enter a valid value - only numbers");
+            }
 
 
             if (numTemp < 20)
