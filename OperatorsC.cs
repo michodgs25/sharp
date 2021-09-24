@@ -8,7 +8,7 @@ namespace OperatorsC
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Fourth(string[] args)
         {
             int num1 = 5;
             int num2 = 3;
